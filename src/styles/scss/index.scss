@@ -20,3 +20,12 @@ html{
     font-weight: 400;
   }
 }
+
+.bookshelf{
+  padding: 10px 20px;
+
+  .bookshelf-title{
+    border-bottom: 1px solid #dedede;
+    padding: 0 0 5px 0;
+  }
+}
