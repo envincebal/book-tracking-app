@@ -15,6 +15,22 @@ html {
     color: #fff;
     font-weight: 400; }
 
+.search-bar {
+  display: flex;
+  border-bottom: 0.5px solid #000; }
+  .search-bar .close-search {
+    background-color: #c2c1c1;
+    border: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff; }
+  .search-bar input {
+    border: none;
+    width: 100%;
+    font-size: 30px;
+    padding: 0 5px; }
+
 .bookshelf {
   padding: 10px 20px; }
   .bookshelf .bookshelf-title {
