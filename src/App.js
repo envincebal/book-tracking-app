@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Book from './components/Book';
 
 class BooksApp extends Component {
   constructor(props) {
@@ -33,40 +34,10 @@ class BooksApp extends Component {
                   <div className="bookshelf-books">
                     <ol className="books-grid">
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                     </ol>
                   </div>
@@ -76,40 +47,10 @@ class BooksApp extends Component {
                   <div className="bookshelf-books">
                     <ol className="books-grid">
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                     </ol>
                   </div>
@@ -119,58 +60,13 @@ class BooksApp extends Component {
                   <div className="bookshelf-books">
                     <ol className="books-grid">
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                       <li>
-                        <div className="book">
-                          <div className="book-cover">
-                            <img src="" alt="" />
-                          </div>
-                          <div className="book-menu">
-                            <select>
-                              <option value="move" disabled>Move to...</option>
-                              <option value="currentlyReading">Currently Reading</option>
-                              <option value="wantToRead">Want to Read</option>
-                              <option value="read">Read</option>
-                              <option value="none">None</option>
-                            </select>
-                          </div>
-                          <p className="book-title"></p>
-                          <p className="book-author"></p>
-                        </div>
+                        <Book />
                       </li>
                     </ol>
                   </div>
